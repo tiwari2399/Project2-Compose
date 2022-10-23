@@ -17,16 +17,15 @@ git clone https://github.com/tiwari2399/Project2-Compose.git
 cd Project2-Compose
 
 2. Start the application:
-""shell
 docker-compose up
-""
+
 
 You can refer to logs using the command: docker logs jenkins to see if the application is compiled successfully.
 
 ## Where is the application running?
 Jenkins page will come up on http://localhost:8080/
 
-## Create an Admin user account and set up your profile on Jenkins
+Create an Admin user account and set up your profile on Jenkins
 
 ## Install following plugins after the above step (Dashboard > Manage Jenkins > System Configuration > Manage plugins > Search for below):
 1. Docker
